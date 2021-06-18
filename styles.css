@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #efeff5;
+  font-family: Montserrat, Courier, monospace;
+  margin: 30px 300px 0px 300px;
+}
+
+#container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  /*height: 100vh;*/
+}
+
+#stern-section {
+  margin: 50px 0px 0px 0px;
+}
+
+h1 {
+  font-size: 40px;
+  /*text-decoration: underline;*/
+}
+
+#logo {
+  width: 400px;
+  height: auto;
+}
+
+#logo:hover {
+  opacity: 70%;
+}
+
+#nyu-section {
+  margin: 60px 0px 0px;
+}
+
+#vcl-btn {
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bolder;
+  background-color: white;
+  color: #57068c;
+}
+
+#vcl-btn:hover {
+  background-color: #57068c;
+  color: white;
+}
+
+#links-section {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+
+a {
+  color: #57068c !important;
+}
