@@ -5,15 +5,20 @@
 
 body {
   background-color: #efeff5;
-  margin: 30px 300px 0px 300px;
 }
 
 #main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   text-align: center;
   margin: 0px 0px 0px 0px;
+}
+
+#logo-img {
+  width: 350px;
+  height: auto;
 }
 
 #stern-section {
@@ -24,18 +29,31 @@ h1 {
   font-size: 45px !important;
 }
 
-h3 {
+h2 {
   font-size: 18px !important;
   font-family: Montserrat, Courier, monospace !important;
 }
 
-#logo {
-  width: 400px;
-  height: auto;
+button {
+  background-color: white;
 }
 
-#logo:hover {
-  opacity: 70%;
+button:hover {
+  box-shadow: 3px 3px 7px black;
+  transition: 200ms linear;
+}
+
+#logo-btn {
+  font-size: 30px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bolder !important;
+  background-color: white;
+  color: #57068c;
+}
+
+#logo-btn:hover {
+  background-color: #57068c;
+  color: white;
 }
 
 #nyu-section {
@@ -55,9 +73,13 @@ h3 {
   color: white;
 }
 
+#contact-section {
+  margin: 30px 0px 5px 0px;
+}
+
 #links-section {
   text-align: center;
-  margin: 50px 0px 0px 0px;
+  margin: 70px 0px 0px 0px;
 }
 
 a {
