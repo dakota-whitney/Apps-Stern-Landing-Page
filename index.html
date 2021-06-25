@@ -1,36 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="author" content="Dakota Whitney" />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-    />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
     <title>Apps@Stern</title>
   </head>
   <body>
     <div id="container-fluid">
-      <div id="main">
-        <h1>Welcome to</h1><img src="https://github.com/dakota-whitney/Apps-Stern-Landing-Page/blob/main/apps@stern_color_rgb.png?raw=true" id="logo-img" alt="Apps@Stern Logo" />
+      <header id="header">
+        <img src="stern_color_rgb.png" id="logo-img" alt="NYU Stern Logo" />
+      </header>
+        <main role="main" id="main">
         <section id="stern-section">
-          <h2>Click below to view your Apps@Stern app catalog:</h2>
-          <a href="https://shibboleth.nyu.edu/idp/profile/SAML2/Unsolicited/SSO?providerId=urn:amazon:webservices&target=https://appstream2.us-east-1.aws.amazon.com/saml%3fstack=SternApps-Stack-DEV%26accountId=322779259130"><button id="logo-btn">Apps@Stern</button></a>
+          <h1 id="title">Welcome to Apps@Stern</h1>
+          <p>Apps@Stern provides NYU Stern's students and faculty with virtual access to academically relevant software applications.</p>
+          <p>To access additional applications NYU offers, please navigate to the <a href="https://vcl.nyu.edu" target="_blank">NYU Virtual Computer Lab (VCL)</a>.</p>
+          <a href="https://shibboleth.nyu.edu/idp/profile/SAML2/Unsolicited/SSO?providerId=urn:amazon:webservices&target=https://appstream2.us-east-1.aws.amazon.com/saml%3fstack=SternApps-Stack-DEV%26accountId=322779259130"><button id="apps-btn">Go to Apps@Stern</button></a>
         </section>
         <section id="nyu-section">
-          <h2>Click below to go to the NYU VCL:</h2>
-          <a href="https://vcl.nyu.edu/" target="_blank"><button id="vcl-btn" alt="VCL button">VCL</button></a>
+          <p>Use of Apps@Stern and the Virtual Computer Lab (VCL) are for academic purposes only.</p>
+          <p>For more information, please see the Apps@Stern <a href="#">service documentation</a>.</p>
         </section>
+        <hr />
         <section id="contact-section">
-          <h2>Contact Stern Helpdesk</h2>
-          <a href="mailto:helpdesk@stern.nyu.edu" target="_blank" class="contact-link">helpdesk@stern.nyu.edu</a> | <a href="tel:212-998-0180" class="contact-link">212-998-0180</a>
+          <h2>Need help? Contact the Stern Helpdesk:</h2>
+          <a href="mailto:helpdesk@stern.nyu.edu" target="_blank" alt="Stern helpdesk email address">helpdesk@stern.nyu.edu</a> | <a href="CISCOTEL:9-1-212-998-0180" alt="Stern helpdesk phone number">(212) 998-0180</a> | 
+          <a href="https://goo.gl/maps/KbF5NMU9fwx6qKSi9" target="_blank" alt="Stern on Google Maps">Tisch L-100</a>
+          <br />
         </section>
-        <section id="links-section">
-          <a href="http://stern.nyu.edu/" target="_blank">Stern Website</a> | <a href="https://sternlife.stern.nyu.edu" target="_blank" />SternLife</a> | <a href="http://it.stern.nyu.edu/" target="_blank">Stern IT</a>
-        </section>
-      </div>
+        <footer role="contentinfo" id="main-footer">
+          <div class="copy-right">&copy <script>document.write(new Date().getFullYear())</script> Leonard N. Stern School of Business | <a href="https://www.nyu.edu/footer/accessibility.html">Accessibility</div>
+          <div id="footer-right-links"></a> <a href="https://www.nyu.edu/">New York University | </a> <a href="http://stern.nyu.edu/" target="_blank">Stern Website</a> | <a href="https://sternlife.stern.nyu.edu" target="_blank" />SternLife</a> | <a href="http://it.stern.nyu.edu/" target="_blank">Stern IT</a>
+          </div>
+        </footer>
+      </main>
     </div>
 </body>
   </html>
