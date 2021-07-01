@@ -8,7 +8,7 @@ body {
 }
 
 #logo-img {
-  width: 350px;
+  width: 230px;
   height: auto;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1 {
-  font-size: 45px !important;
+  font-size: 2.2em;
   margin: 0px 0px 20px 0px !important;
   font-weight: bolder !important;
 }
@@ -46,17 +46,13 @@ p {
 
 #apps-btn {
   margin: 30px 0px 0px 0px;
-  font-size: 30px;
+  font-size: 1.5em;
   padding: 10px 15px 10px 15px;
   font-weight: bolder !important;
-  background-color: white;
-  color: #57068c;
-}
-
-#apps-btn:hover {
-  background-color: #57068c;
-  color: white;
-  transition: 200ms linear;
+  background-color: #58068c;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
 }
 
 #nyu-section {
@@ -77,6 +73,11 @@ p {
 a {
   font-size: 15px !important;
   color: #57068c !important;
+}
+
+a:focus,
+button:focus {
+  outline: 3px solid #1ca2b0 !important;
 }
 
 hr {
